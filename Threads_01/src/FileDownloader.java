@@ -4,11 +4,11 @@ public class FileDownloader extends Thread{
         System.out.println("Thread is started");
         for (int i = 0; i <= 5; i++){
             System.out.println("Downloading..." + (i * 20) + "%");
-            try{
-                Thread.sleep(1000);
-            } catch (InterruptedException e) {
-                e.printStackTrace();
-            }
+//            try{
+//                Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
         }
         System.out.println("Download Complete");
     }

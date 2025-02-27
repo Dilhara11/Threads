@@ -1,0 +1,9 @@
+In a multi-threaded web server,
+each client request is handled by
+a separate thread. Using ThreadGroup,
+we can monitor and manage all client handler threads efficiently.
+
+💻 Scenario:
+A server application creates a new thread for every
+connected client. If the server needs to shut down,
+it can interrupt all client threads at once.
