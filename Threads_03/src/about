@@ -1,0 +1,9 @@
+📌 Real-Life Scenario:
+Managing Customer Requests in an E-Commerce System 🛒
+💻 Scenario:
+In an e-commerce platform, multiple customer requests
+(e.g., order processing, payment handling, and inventory updates)
+must be handled simultaneously.
+Using ExecutorService,
+we can efficiently manage, queue, and execute tasks
+without creating unnecessary threads.
